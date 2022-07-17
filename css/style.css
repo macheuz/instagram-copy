@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #3599FA ;
+}
+html, body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 95%;
+}
+.celular{
+    display: flex;
+    height: 100%;
+    width: 65%;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.conta{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    border: 1px solid gray;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.conta img:nth-of-type(1){
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+}
+.conta img:nth-of-type(2){
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+    border-radius: 50%;
+}
+.conta > p:nth-of-type(1){
+    display: flex;
+    margin-top: 8%;
+    padding: 2% 15%;
+    border-radius: 10px;
+    background-color: #3599FA;
+    color: white;
+}
+.conta > p:nth-of-type(1):hover{
+    cursor: pointer;
+    background-color: #154473 ;
+}
+.conta > p:nth-of-type(2){
+    display: flex;
+    color: #3599FA;
+    font-size: 18px;
+    margin-top: 3%;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+.conta > p:nth-of-type(2):hover{
+    cursor: pointer;
+}
+.trocar-conta{
+    display: flex;
+    border: 1px solid gray;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    height: 20%;
+}
+.trocar-conta p:nth-of-type(1){
+    display: flex;
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+}
+.trocar-conta p:nth-of-type(2){
+    display: flex;
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3599FA;
+}
+.apps{
+    margin-top: 2%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    border: 1px solid gray;
+}
+.texto-download p{
+    margin-top: 2%;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.imagens-download{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.imagens-download img{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 30%;
+}
+.imagens-download:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 960px) {
+    .celular{
+        display: none;
+    }
+    .login{
+        width: 80%;
+    }
+    .conta img:nth-of-type(1){
+        box-sizing: border-box;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 40%;
+    }
+    .conta img:nth-of-type(2){
+        box-sizing: border-box;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 20%;
+        border-radius: 50%;
+    }
+
+}
